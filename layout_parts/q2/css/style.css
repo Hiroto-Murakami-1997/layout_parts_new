@@ -1,25 +1,28 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.content-wrapper{
-  width:900px;
-  padding:20px;
+.content-wrapper {
+  width: 900px;
+  padding: 20px;
   background-color: #eff3f4;
-  margin:0 auto;
+  margin: 0 auto;
 }
-.image_left{
+
+.image_left {
   margin-right: 20px;
   margin-bottom: 10px;
-  float:left;
+  float: left;
 }
-.image_right{
+
+.image_right {
   margin-left: 20px;
   margin-bottom: 10px;
-  float:right;
+  float: right;
 }
-.text-content{
+
+.text-content {
   font-size: 18px;
-  line-height:22px;
+  line-height: 22px;
   word-break: break-all;
 }
 /* 回答はここに書いてね */

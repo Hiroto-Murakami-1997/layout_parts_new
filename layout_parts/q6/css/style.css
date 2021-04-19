@@ -1,63 +1,78 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.content-wrapper{
-  display:table;
+.content-wrapper {
+  display: table;
 }
-.content-box{
+
+.content-box {
   display: table-cell;
 }
-.content-box div, .content-box:last-child{
+
+.left-content {
   text-align: center;
 }
-.content-box p{
+
+.content-text {
   /* inline-blockにしてwidth指定 */
   display: inline-block;
-  width:90px;
+  width: 90px;
   padding: 10px 0 10px 0;
   background-color: #e6f2ff;
 }
+
+.right-text {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
 /* -------------------------------------------- */
-.middle-content-upper{
+
+.middle-content-upper {
   text-align: center;
   display: table;
 }
-.text{
-  display:inline;
+
+.text {
+  display: inline;
   padding: 10px;
   background-color: #fff;
 }
-.middle-content-upper div{
+
+.upper-text {
   display: table-cell;
   vertical-align: middle;
 }
-.middle-content-lower{
+
+.middle-content-lower {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 /* -------------------------------------------- */
-.position-wrapper p{
-  
+
+.left-box {
+  position: relative;
 }
-.left-box{
-  position:relative;
-}
-.left-box p{
+
+.fixed-box {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top:-15px;
-  margin-left:-55px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }
-.right-box{
-  position:relative;
+
+.right-box {
+  position: relative;
 }
-.right-box p{
-  
+
+.variable-box {
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
 }
+
 /* 回答はここに書いてね */
