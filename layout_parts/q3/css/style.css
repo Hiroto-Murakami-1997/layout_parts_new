@@ -1,5 +1,30 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.food-table{
+  width: 100%;
+  margin: 0;
+  table-layout: fixed;
+}
+.food-table th, .food-table td{
+  border: 1px solid #dedede;
+}
+.food-table th,.food-table td{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.food-table thead, .food-table tbody td:first-child{
+  background-color: #2244aa;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+}
+.food-table tr:nth-child(2n){
+  background-color: #ecf1f2;
+}
+.food-table tbody tr:last-child{
+  border-top: 2px dashed #000;
+}
 
 /* 回答はここに書いてね */

@@ -1,5 +1,100 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.content-wrapper{
+  height: 500px;
+  width: 500px;
+  background-color: #ECF1F2;
+  margin: 0 auto;
+  position: relative;
+}
+.content-wrapper div{
+  height: 100px;
+  width: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+}
+/* 8 */
+.content-wrapper div:nth-child(1){
+  background-color: #de70cf;
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  z-index: 8;
+}
+/* 5 */
+.content-wrapper div:nth-child(2){
+  background-color: #9fd6d2;
+  position: absolute;
+  top: 360px;
+  left: 200px;
+  z-index: 5;
+}
+/* 1 */
+.content-wrapper div:nth-child(3){
+  background-color: #ffefd3;
+  position: absolute;
+  top: 40px;
+  left: 200px;
+}
+/* 1-small */
+.content-wrapper div:nth-child(3)::before{
+  content: '';
+  height: 20px;
+  width: 20px;
+  background-color: #ffefd3;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  z-index: 9;
+}
+/* 7 */
+.content-wrapper div:nth-child(4){
+  background-color: #deae70;
+  position: absolute;
+  top: 200px;
+  left: 40px;
+  z-index: 7;
+}
+/* 4 */
+.content-wrapper div:nth-child(5){
+  background-color: #8b7a5e;
+  position: absolute;
+  top: 280px;
+  left: 280px;
+  z-index: 4;
+}
+/* 6 */
+.content-wrapper div:nth-child(6){
+  background-color: #fffee4;
+  position:absolute;
+  top: 280px;
+  left: 120px;
+  z-index: 6;
+}
+/* 2 */
+.content-wrapper div:nth-child(7){
+  background-color: #7084de;
+  position: absolute;
+  top: 120px;
+  left: 280px;
+  z-index: 2;
+}
+/* 3 */
+.content-wrapper div:nth-child(8){
+  background-color: #d0ecea;
+  position: absolute;
+  top: 200px;
+  left: 360px;
+  z-index: 3;
+}
+/* 9 */
+.content-wrapper div:nth-child(9){
+  background-color: #2b69a3;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
 /* 回答はここに書いてね */
