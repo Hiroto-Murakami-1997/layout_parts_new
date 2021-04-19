@@ -8,16 +8,8 @@
   margin: 0 auto;
   position: relative;
 }
-
-.pink,
-.blue,
-.milk,
-.orange,
-.brown,
-.snow,
-.purple,
-.sky,
-.ocean {
+/* 共通化 */
+.cell {
   height: 100px;
   width: 100px;
   font-size: 30px;
